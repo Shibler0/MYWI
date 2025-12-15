@@ -22,10 +22,13 @@ header {
 }
 
 .picture img {
-    width: 100%;
-    border-radius: 35px;
-    display: block; 
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border-radius: 35px;
+  display: block;
 }
+
 
 .content-overlay {
     position: absolute;
@@ -50,6 +53,14 @@ header {
     height: 50px;
     background-color: #071726;
     border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downloadbtn span {
+    font-family: "outfit", sans-serif;
+    color: white;
 }
 
 
