@@ -12,8 +12,30 @@ html, body {
 
 
 header {
-    height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+#logo {
+  margin-right: auto;
+}
+
+#menu {
+  margin-left: auto;
+}
+
+#logo img {
+  width: 50px;
+  height: 50px;
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 #btnplacement {
     position: relative; 
